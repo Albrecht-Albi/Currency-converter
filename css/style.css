@@ -13,10 +13,6 @@ html {
     font-family: 'Lora', serif;
     line-height: 2;
     background-image: url("../images/cc.jpg");
-  
-    
-
-
 
     display: flex;
     flex-direction: column;    
