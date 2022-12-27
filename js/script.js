@@ -13,9 +13,7 @@
 
             case "USD":
                 return amount / USD;
-
         }
-
     };
 
 

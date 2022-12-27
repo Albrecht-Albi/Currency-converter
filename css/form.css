@@ -1,5 +1,5 @@
 .form__fieldset {
-    background-color: rgba(238, 238, 171, 0.362);
+    background-color: rgba(238, 238, 171, 0.641);
     border-radius: 5px;
     border: 2px solid whitesmoke
     
@@ -7,7 +7,7 @@
 
 .form__legend {
     padding: 10px;
-    background-color: hsl(73, 20%, 73%);
+    background-color: rgba(238, 238, 171, 0.641);
     border: 2px solid white;
     border-radius: 5px;
     color: #fff;
@@ -55,10 +55,10 @@
 }
 
 .form__button:hover {
-    background-color: hsl(0, 79%, 37%);
+    background-color: hsl(150, 4%, 67%);
 }
 
 .form__button:active {
-    background-color: hsl(352, 79%, 45%);
+    background-color: hsl(150, 4%, 75%);
     
 }
