@@ -1,64 +1,79 @@
-.form__fieldset {
-    background-color: rgba(238, 238, 171, 0.641);
+.form {
+    background-color: hwb(260 50% 48% / 0.751);
+    padding: 10px;
     border-radius: 5px;
-    border: 2px solid whitesmoke
-    
+    margin: 20px 0;
+    margin-bottom: 0px;
+    text-align: center;
+    box-shadow: 2px 2px 20px black;
+    height: 400px;
+}
+
+@media (max-width: 767px) {
+    .form {
+        height: 520px;
+    }
+}
+
+.form__fieldset {
+    padding: 16px;
+    border-radius: 5px;
+    margin: 16px 0;
+    margin-bottom: 0px;
+    text-align: center;
+    border: none;
 }
 
 .form__legend {
-    padding: 10px;
-    background-color: rgba(238, 238, 171, 0.641);
-    border: 2px solid white;
-    border-radius: 5px;
-    color: #fff;
-}
-
-.form__labelText {
-    display: inline-block;
-    width: 45%;
-}
-
-.form__toFill {
+    background-color: hsla(65, 26%, 91%, 0);
+    color: whitesmoke;
+    font-size: 24px;
+    max-width: 250px;
     width: 100%;
-}
-
-.form__select {
-    width: 40%;
-    padding: 5px;
-    border: 2px solid #ccc;
+    padding: 10px;
     border-radius: 5px;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 1px 1px 10px rgb(32, 31, 31);
 }
 
-.form__amount {
-    width: 40%;
-    padding: 5px;
-    border: 2px solid #ccc;
+.form__label {
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    margin-right: 2px;
+    text-align: left;
+}
+
+.form__field {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    max-width: 250px;
     border-radius: 5px;
-}
-
-.form__input--readonly {
-    width: 40%;
-    background-color: white;
-    border: 2px solid hsl(73, 20%, 73%);
 }
 
 .form__button {
-    margin-left: 50%;
-    text-align: center;
-    padding: 10px;
-    display: inline-block;
-    width: 50%;
-    background-color: hsl(73, 20%, 73%);
-    color: rgb(8, 8, 8);
+    background-color: hsla(162, 7%, 63%, 0.627);
+    max-width: 250px;
+    width: 200px;
+    color: hsl(0, 0%, 10%);
+    font-weight: 700;
+    padding: 9.5px;
     border-radius: 5px;
-    border-color: white;
+    border: 1px solid rgb(90, 86, 86);
+    box-shadow: 1px 1px 10px rgb(32, 31, 31);
+    margin: 16px 26px -1px 28px;
 }
 
 .form__button:hover {
-    background-color: hsl(150, 4%, 67%);
+    background-color: hsl(163, 6%, 75%);
 }
 
-.form__button:active {
-    background-color: hsl(150, 4%, 75%);
-    
+.form__result {
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px;
 }

@@ -2,34 +2,21 @@ html {
     box-sizing: border-box;
 }
 
-*, ::after, ::before {
+*,
+::after,
+::before {
     box-sizing: inherit;
 }
 
 .body {
-    margin: 10% auto;
-    padding: 10px;
-    max-width: 650px;
-    font-family: 'Lora', serif;
-    line-height: 2;
-    background-image: url("../images/cc.jpg");
-
+    font-family: 'Montserrat', sans-serif;
     display: flex;
-    flex-direction: column;    
     justify-content: center;
+    align-items: center;
     min-height: 100vh;
-    margin: 0 auto;
-    max-width: 1000px;
-    padding: 0 200px;
-    
+    background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
-}
-
-
-.footer {
-    margin-top: 5%;
-    color: white;
+    background-color: black;
 }
