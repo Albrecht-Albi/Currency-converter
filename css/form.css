@@ -1,12 +1,13 @@
 .form {
-    background-color: hwb(260 50% 48% / 0.751);
+    background-color: #10120f9e;
     padding: 40px;
     border-radius: 5px;
     margin: 20px 0;
     margin-bottom: 0px;
     text-align: center;
-    box-shadow: 2px 2px 20px black;
+    box-shadow: 2px 2px 20px #f5f5f5e6;
     height: 450px;
+    color: #f5f5f5;
 }
 
 @media (max-width: 767px) {
@@ -25,8 +26,8 @@
 }
 
 .form__legend {
-    background-color: hwb(260 50% 48% / 0.751);
-    color: whitesmoke;
+    background-color: #0f11129e;
+    color: #ffffff;
     font-size: 24px;
     max-width: 250px;
     width: 100%;
@@ -35,7 +36,7 @@
     font-weight: 700;
     text-align: center;
     display: inline-block;
-    box-shadow: 1px 1px 10px rgb(32, 31, 31);
+    box-shadow: 2px 2px 20px #f5f5f5 ;
 }
 
 .form__label {
@@ -44,6 +45,7 @@
     display: inline-block;
     margin-right: 2px;
     text-align: left;
+    color: #f5f5f5;
 }
 
 .form__field {
@@ -52,27 +54,30 @@
     width: 100%;
     max-width: 250px;
     border-radius: 5px;
+    color: #000000;
 }
 
 .form__button {
-    background-color: hsla(162, 7%, 63%, 0.627);
+    background-color: #0f11129e;
     max-width: 250px;
     width: 200px;
-    color: hsl(0, 0%, 10%);
+    color: #ffffff;
     font-weight: 700;
     padding: 9.5px;
     border-radius: 5px;
-    border: 1px solid rgb(90, 86, 86);
-    box-shadow: 1px 1px 10px rgb(32, 31, 31);
+    border: 1px solid #5a5656;
+    box-shadow: 1px 1px 10px #201f1f;
     margin: 16px 26px -1px 20px;
+    transition: background 1s, transform 0.5s;
 }
 
 .form__button:hover {
-    background-color: hsl(163, 6%, 75%);
+    background-color: #5e60619e;
+    transform: scale(1.05);
 }
 
 .form__result {
-    color: whitesmoke;
+    color: #f5f5f5;
     font-size: 20px;
     padding-top: 10px;
 }
