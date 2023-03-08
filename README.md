@@ -2,8 +2,7 @@
 
 ![Currency-converter](https://github.com/Albrecht-Albi/Currency-converter/blob/main/images/share.png)
 
-## Demo
-https://albrecht-albi.github.io/Currency-converter/
+## [Demo !! ](https://albrecht-albi.github.io/Currency-converter/)
 
 ## How it works:
 ![website gif](https://github.com/Albrecht-Albi/Currency-converter/blob/main/images/recordingCurrencyConverter.gif)
